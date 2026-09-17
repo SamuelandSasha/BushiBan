@@ -206,10 +206,16 @@ vertical-align: middle;
     }
 
 #messagebtn {
-width: 32px;
-height: 32px;
-background-color:#685c54;
-border-radius: 50%;
+width: 45px !important;
+height: 45px !important;
+background-color: #f8c617 !important;
+border-radius: 50% !important;
+background-image: url('https://scaledaycares.github.io/messagebtn/messagebtn.png') !important;
+background-repeat: no-repeat !important;
+background-position: center !important;
+background-size: 50px 45px !important; /* Adjust size to fit the button */
+border: none !important;
+cursor: pointer !important;
 }
 
 #messagebtn img {
